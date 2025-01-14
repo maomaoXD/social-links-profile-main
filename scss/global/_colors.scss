@@ -1,0 +1,15 @@
+// - Green: hsl(75, 94%, 57%)
+
+// - White: hsl(0, 0%, 100%)
+
+// - Grey 700: hsl(0, 0%, 20%)
+// - Grey 800: hsl(0, 0%, 12%)
+// - Grey 900: hsl(0, 0%, 8%)
+
+:root {
+    --color-bg: hsl(0, 0%, 8%);
+    --color-main-bg: hsl(0, 0%, 12%);
+    --color-text: hsl(0, 0%, 100%);
+    --color-accent: hsl(75, 94%, 57%);
+    --color-highlight: hsl(0, 0%, 12%);
+  }

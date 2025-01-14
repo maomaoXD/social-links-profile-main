@@ -1,0 +1,30 @@
+:root {
+  --color-bg: hsl(0, 0%, 8%);
+  --color-main-bg: hsl(0, 0%, 12%);
+  --color-text: hsl(0, 0%, 100%);
+  --color-accent: hsl(75, 94%, 57%);
+  --color-highlight: hsl(0, 0%, 12%);
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}/*# sourceMappingURL=style.css.map */

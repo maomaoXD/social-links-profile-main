@@ -1,0 +1,69 @@
+@use '../util' as u;
+
+.main {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+    margin-inline: auto;
+    height: 100vh;          /* Full viewport height for demonstration */
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+
+        &__img {
+            width: u.rem(80);
+            padding-bottom: u.rem(20);
+        }
+
+        &__name {
+            text-align: center;
+            padding: u.rem(10);
+        }
+
+        &__location {
+            text-align: center;
+            padding-bottom: u.rem(10);
+        }
+
+        &__tagline {
+            text-align: center;
+            padding: u.rem(10);
+        }
+    }
+
+    &__socials {
+        display: flex;
+        flex-direction: column;
+    }
+   
+    &__social {
+        list-style-type: none;
+    }
+
+    &__social_btn {
+        width: 100%;
+        background-color: var(--color-highlight);
+        cursor: pointer;
+        margin-bottom: u.rem(16);
+        padding: u.rem(12);
+        border: none;
+        border-radius: u.rem(6);
+        color: var(--color-text);
+
+        &:active {
+            background-color: var(--color-accent);
+            color: var(--color-highlight);
+        
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+        color: inherit;
+    }
+
+}

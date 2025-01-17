@@ -5,21 +5,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">  
   <title>Frontend Mentor | Social links profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/dist/style.css" />
 
   
 </head>
 <body>
 
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
+  <section class="main">
+    <div class="wrapper rounded">
+      <div class="main__info">
+        <img class="main__info__img circled" src="assets/images/avatar-jessica.jpeg">
+        <h1 class="main__info__name">Jessica Randall</h1>
+        <p class="main__info__location em">London, United Kingdom</p>
+        <p class="main__info__tagline">"Front-end developer and avid reader."</p>
+      </div>
 
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
+      <ul class="main__socials">
+        <li class="main__social">
+          <button class="main__social_btn">
+            <a class="main__link" href="#">GitHub</a>
+          </button>
+        </li>
+        <li class="main__social">
+          <button class="main__social_btn">
+            <a class="main__link" href="#">Frontend Mentor</a>
+          </button>
+        </li>
+        <li class="main__social">
+          <button class="main__social_btn">
+            <a class="main__link" href="#">LinkedIn</a>
+          </button>
+        </li>
+        <li class="main__social">
+          <button class="main__social_btn">
+            <a class="main__link" href="#">Twitter</a>
+          </button>
+        </li>
+        <li class="main__social">
+          <button class="main__social_btn">
+            <a class="main__link" href="#">Instagram</a>
+          </button>
+          
+        </li>
+
+      </ul>
+
+    </div>
+      
+    
+  </section>
   
   
 </body>

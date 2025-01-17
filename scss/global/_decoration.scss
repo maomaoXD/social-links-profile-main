@@ -1,0 +1,17 @@
+@use '../util/' as u;
+
+.rounded {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+
+.circled {
+    border-radius: 50%;
+}
+
+.em {
+    font-weight: 600;
+    font-size: u.rem(12);
+    color: var(--color-accent);
+}

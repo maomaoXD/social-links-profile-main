@@ -1,0 +1,10 @@
+@use '../util/' as u;
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: min(100%, u.rem(375));
+    padding: u.rem(40);
+    background-color: var(--color-main-bg);
+}
+
